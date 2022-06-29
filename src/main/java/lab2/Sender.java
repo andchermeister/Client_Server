@@ -1,3 +1,6 @@
+package lab2;
+
+import lab2.Packet;
 import lombok.SneakyThrows;
 
 import java.util.concurrent.BlockingQueue;

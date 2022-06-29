@@ -1,3 +1,5 @@
+package lab2;
+
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.Key;

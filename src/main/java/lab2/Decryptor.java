@@ -1,3 +1,5 @@
+package lab2;
+
 import lombok.SneakyThrows;
 
 import javax.crypto.Cipher;

@@ -1,3 +1,5 @@
+package lab2;
+
 import java.nio.ByteBuffer;
 import lombok.Data;
 
@@ -6,7 +8,7 @@ public class Message {
 
     protected Integer cType;
     protected Integer bUserId;
-    protected String message;
+    public String message;
 
     public  void set_cType(Integer cType)
     {

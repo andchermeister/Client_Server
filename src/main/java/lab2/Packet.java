@@ -1,3 +1,9 @@
+package lab2;
+
+import lab2.CRC16;
+import lab2.Decryptor;
+import lab2.Encryptor;
+import lab2.Message;
 import lombok.Data;
 
 import java.nio.ByteBuffer;
@@ -7,8 +13,8 @@ public class Packet {
 
     public final static Byte bMagic =  0x13;
     // static int bPktId;
-    protected Byte bSrc;
-    protected Long bPktId;
+    public Byte bSrc;
+    public Long bPktId;
     protected static long fPktId=0;
     Integer wLen;
     private Short wCrc16;

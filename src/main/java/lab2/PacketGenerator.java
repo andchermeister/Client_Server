@@ -1,3 +1,7 @@
+package lab2;
+
+import lab2.Message;
+import lab2.Packet;
 import lombok.SneakyThrows;
 
 import java.util.Random;
